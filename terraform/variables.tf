@@ -13,3 +13,9 @@ variable "container_image" {
   description = "Container image to deploy"
   type        = string
 }
+
+variable "environment" {
+  description = "Environment (e.g. dev, prod)"
+  type        = string
+  default     = "dev"
+}
